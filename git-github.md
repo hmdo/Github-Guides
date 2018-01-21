@@ -11,8 +11,10 @@ $ git commit -m "First Commit"
 ```
 $git clone https://github.com/hmdo/proj
 $cd proj
-// add file to STAGING ARE before "git commit"
-$ git add README.md
+// add files to STAGING ARE to update what will be committed
+$ git add README.md git-github.md
+// Discard changes in working directory
+$ git checkout -- README.md git-github.md
 // Check status
 $ git status
 $ git commit -m "First commit on Github"
