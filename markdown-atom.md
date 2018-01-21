@@ -1,4 +1,9 @@
-# Setting
+# Edit Tools
+## Select all and edit all at once
+* Select a word (by double-clicking on it or press CTRL + d to select a word under the cursor, repeatedly).
+* Press CTRL+CMD+g/Alt+F3 to select all occurrences and to create multi-cursor.
+* Type/delete chars — this will affect all occurrences!
+* Press ESC to leave multi-cursor mode.
 
 # Setting Atom environment
 Edit->Preferences
