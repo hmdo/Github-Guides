@@ -4,8 +4,10 @@
 $ git init git_example
 $ cd git_example
 $ git add readme.txt
+$ git add . //add all
 $ git status
 $ git commit -m "First Commit"
+
 ```
 #Github
 ```
@@ -43,6 +45,8 @@ $ git commit -m "Commit develop.html from develop branch"
 $ git checkout master
 $ git merge develop
 $ push ...
+$ git branch -d fix_ui //delete branch
+
 
 
 ```
