@@ -28,6 +28,21 @@ $ git log
 $ git log -p/-1/--since, --after, --until, --author, --grep, --pretty="%tag"
 // Ctrl + z to exit
 
+$ git pull -all
+$ git add files
+$ git tag v1.0
+$ git tag
+$
+
+// Create Branch and switch to new branch
+$ git branch develop
+$ git checkout develop
+$ touch develop.html
+$ git add .
+$ git commit -m "Commit develop.html from develop branch"
+$ git checkout master
+$ git merge develop
+$ push ...
 
 
 ```
