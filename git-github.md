@@ -15,12 +15,21 @@ $cd proj
 $ git add README.md git-github.md
 // Discard changes in working directory
 $ git checkout -- README.md git-github.md
+$ git reset HEAD git-github.rm
 // Check status
 $ git status
 $ git commit -m "First commit on Github"
 $ git push origin master
 // Hide reports
 $ git config --global push.default simple
+// Delete
+$ git rm -f file
+$ git log
+$ git log -p/-1/--since, --after, --until, --author, --grep, --pretty="%tag"
+// Ctrl + z to exit
+
+
+
 ```
 
 
