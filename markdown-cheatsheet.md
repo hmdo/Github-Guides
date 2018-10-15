@@ -1,6 +1,6 @@
 Markdown Cheat Sheet
 ====================
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+https://github.comm/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 by Adam Pritchard
 
 This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).
@@ -189,6 +189,14 @@ Reference-style:
 
 <a name="code"/>
 
+<hr>
+<div class = "imgcap">
+<img src ="/images/git-workflow.png" align = "center" width = "800">
+</div>
+
+<br>
+<div  class = "thecap" style = "text-align: justify" >Image inside the box</div>
+<hr>
 ## Code and Syntax Highlighting
 
 Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).

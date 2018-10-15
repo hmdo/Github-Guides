@@ -24,6 +24,12 @@ $ git commit -m "First commit on Github"
 $ git push origin master
 // Hide reports
 $ git config --global push.default simple
+// Push
+git add --all
+git commit -m "First commit on Github"
+$ git push origin master
+
+
 // Delete
 $ git rm -f file
 $ git log
